@@ -1,6 +1,11 @@
+import { SignIn } from "@clerk/nextjs";
 
-const page = () => {
-  return <div>page</div>;
+const SignInPage = () => {
+  return (
+    <main className="flex h-screen w-full items-center justify-center">
+      <SignIn />
+    </main>
+  );
 };
 
-export default page;
+export default SignInPage;
