@@ -1,19 +1,5 @@
-"use client";
-import { SignedIn, SignedOut, SignInButton } from "@clerk/clerk-react";
-import { SignOutButton } from "@clerk/nextjs";
-
 const HomePage = () => {
-  return (
-    <div>
-      HomePage
-      <SignedOut>
-        <SignInButton />
-      </SignedOut>
-      <SignedIn>
-        <SignOutButton />
-      </SignedIn>
-    </div>
-  );
+  return <div>HomePage</div>;
 };
 
 export default HomePage;
